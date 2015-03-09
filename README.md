@@ -1,10 +1,10 @@
 hello world:
 ============
 
-   cd /tmp
-   git clone git@github.com:danbikle/hdLeak.git
-   cd /tmp/hdLeak/sparkling-water-droplet/
-   ./gradlew build
+    cd /tmp
+    git clone git@github.com:danbikle/hdLeak.git
+    cd /tmp/hdLeak/sparkling-water-droplet/
+    ./gradlew build
 
 
 H2O Project Templates
