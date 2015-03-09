@@ -46,8 +46,8 @@ object SparklingWaterDroplet {
     // val pred_count = 11
 
     var predictions_array = new Array[String](pred_count)
-    val top_folder = "/home/dan/a18"
-    val observations_rdd = sc.textFile(top_folder+"/swd/data/wide1.csv").repartition(1).cache()
+    val top_folder = "/tmp/hdLeak"
+    val observations_rdd = sc.textFile(top_folder+"/sparkling-water-droplet/data/wide1.csv").repartition(1).cache()
 
     // wide1.csv columns:
     // cdate,cp,pctlead,dow,dom,moy,eem3,eem4,eem5,eem6,efa3,efa4, ...
